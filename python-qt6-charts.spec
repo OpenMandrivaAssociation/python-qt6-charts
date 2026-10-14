@@ -9,7 +9,7 @@
 
 Name:		python-qt6-charts
 Version:	6.10.0
-Release:	2
+Release:	3
 Source0:	https://files.pythonhosted.org/packages/source/p/%{pypi_name}/%{oname}-%{version}.tar.gz
 Summary:	Python bindings for the Qt Charts library
 URL:		https://www.riverbankcomputing.com/software/pyqtchart
@@ -25,7 +25,7 @@ BuildRequires:	qt6-cmake
 BuildRequires:	glibc-devel
 BuildRequires:	sed
 BuildRequires:	pkgconfig(dbus-python)
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	cmake(Qt6Bluetooth)
 BuildRequires:	cmake(Qt6Concurrent)
 BuildRequires:	cmake(Qt6Nfc)
