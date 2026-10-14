@@ -126,6 +126,6 @@ find %{buildroot}%{python_sitearch} -name "*.so" |xargs chmod a+rx
 %files
 %doc README.md
 %license LICENSE
-%{python_sitearch}/PyQt6/QtCharts.abi3.so
+%{python_sitearch}/PyQt6/QtCharts.abi3*.so
 %{python_sitearch}/PyQt6/bindings/QtCharts
 %{python_sitearch}/%{oname}-%{version}.dist-info
